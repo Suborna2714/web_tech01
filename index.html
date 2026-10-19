@@ -1,0 +1,212 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Portfolio</title>
+
+    <meta name="author" content="Tanzim Hossain">
+    <meta name="description" content="Personal portfolio webpage of a Computer Science student">
+    <meta name="keywords" content="Portfolio, Computer Science, Student, HTML">
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Tanzim Hossain</h1>
+        <p>Computer Science Student | Aspiring Software Developer</p>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About Me</a> |
+            <a href="#education">Education</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+
+            <p>
+                Hello! I am a Computer Science student interested in
+                programming, web development, and software engineering.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Biography Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                My name is Tanzim Hossain. I am studying Computer Science
+                at American International University-Bangladesh (AIUB).
+                I enjoy learning new technologies and developing
+                software applications.
+            </p>
+
+            <h3>My Skills</h3>
+
+            <ul>
+                <li>HTML5</li>
+                <li>CSS Basics</li>
+                <li>C++ Programming</li>
+                <li>Java Programming</li>
+                <li>Database Management</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Educational Qualifications</h2>
+
+            <table border="1" cellpadding="8">
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Group / Subject</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>BSc</td>
+                        <td>AIUB</td>
+                        <td>Computer Science</td>
+                        <td>Studying</td>
+                    </tr>
+
+                    <tr>
+                        <td>HSC</td>
+                        <td>BCPSC</td>
+                        <td>Science</td>
+                        <td>GPA: 5</td>
+                    </tr>
+
+                    <tr>
+                        <td>SSC</td>
+                        <td>BCPSC</td>
+                        <td>Science</td>
+                        <td>GPA: 5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <!-- Full Name -->
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name"
+                       maxlength="50" required>
+                <br><br>
+
+                <!-- Email -->
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <!-- Subject -->
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject"
+                       maxlength="100" required>
+                <br><br>
+
+                <!-- Radio Buttons -->
+                <h3>Gender</h3>
+
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+
+                <br><br>
+
+                <!-- Checkboxes -->
+                <h3>Choose Your Interests</h3>
+
+                <input type="checkbox" id="web" name="interests" value="Web Development">
+                <label for="web">Web Development</label>
+                <br>
+
+                <input type="checkbox" id="programming" name="interests" value="Programming">
+                <label for="programming">Programming</label>
+                <br>
+
+                <input type="checkbox" id="database" name="interests" value="Database">
+                <label for="database">Database Management</label>
+                <br>
+
+                <input type="checkbox" id="ai" name="interests" value="Artificial Intelligence">
+                <label for="ai">Artificial Intelligence</label>
+
+                <br><br>
+
+                <!-- Drop-down Box -->
+                <label for="country">Select Your Country:</label><br>
+
+                <select id="country" name="country" required>
+                    <option value="">-- Select Country --</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="India">India</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <br><br>
+
+                <!-- Message -->
+                <label for="message">Message:</label><br>
+
+                <textarea id="message" name="message"
+                          rows="5" cols="40" required></textarea>
+
+                <br><br>
+
+                <!-- Submit and Reset Buttons -->
+                <button type="submit">Send Message</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Tanzim Hossain. All rights reserved.</p>
+        <p>Email: your-email@example.com</p>
+    </footer>
+
+</body>
+</html>
+```
