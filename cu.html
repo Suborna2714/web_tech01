@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CU Admission</title>
+    <link rel="stylesheet" href="cu.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h3>University of Chittagong</h3>
+
+        <div class="main">
+
+            <div class="information">
+
+                <p>Application: 01 Dec 2025 to 15 Dec 2025</p>
+
+                <p>Required SSC GPA: 4.00(A Unit), 3.5(B,B1,B2,C,D), 2.5(D1)</p>
+
+                <p>Required HSC GPA: 3.5(A,B,B1,B2,C,D), 2.5(D1)</p>
+
+                <p>Fees: 1050Tk Per Unit</p>
+
+                <p>Units: A, B, B1, B2, C, D, D1</p>
+
+                <p>Exam Format: MCQ</p>
+
+                <p>Exam Marks: 100</p>
+
+                <p>Total Seats: ~4,900+ seats</p>
+
+                <p>District: Chittagong</p>
+
+                <p>Subjects: A Unit (Bangla, English, Chemistry, Physics,
+                Biology, Math) choose 3 from P,C,M,B.
+                B, B1, D1 Unit (Bangla, English, General Knowledge),
+                B2 Unit, C Unit, D Unit.</p>
+
+                <p>Departments: A Unit (Physics-110, Chemistry-110,
+                Statistics-110, Mathematics-110, Applied Chemistry,
+                Chemical Engineering, etc.)</p>
+
+            </div>
+
+
+            <div class="eligibility">
+
+                <h4>Eligibility</h4>
+
+                <label>SSC GPA:</label>
+
+                <input type="number" id="ssc" step="0.01" min="0" max="5">
+
+                <br><br>
+
+                <label>HSC GPA:</label>
+
+                <input type="number" id="hsc" step="0.01" min="0" max="5">
+
+                <br><br>
+
+                <label>Group:</label>
+
+                <select id="group">
+
+                    <option value="">Select Unit</option>
+
+                    <option value="A">A Unit</option>
+
+                    <option value="B">B Unit</option>
+
+                    <option value="B1">B1 Unit</option>
+
+                    <option value="B2">B2 Unit</option>
+
+                    <option value="C">C Unit</option>
+
+                    <option value="D">D Unit</option>
+
+                    <option value="D1">D1 Unit</option>
+
+                </select>
+
+                <p id="result">Result:</p>
+
+                <button onclick="checkEligibility()">
+                    Check Eligibility
+                </button>
+
+                <br><br>
+
+                <button onclick="apply()">Apply</button>
+
+            </div>
+
+        </div>
+
+        <button class="back" onclick="history.back()">Back</button>
+
+    </div>
+
+    <script src="cu.js"></script>
+
+</body>
+</html>
