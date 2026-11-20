@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JU Admission</title>
+    <link rel="stylesheet" href="ju.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h3>Jahangirnagar University (JU)</h3>
+
+        <div class="main">
+
+            <div class="information">
+
+                <p>Application: 22 Nov 2025 to 07 Dec 2025</p>
+
+                <p>Required SSC GPA: 4.00 (A,D Unit), 3.5 (B Unit,C Unit,C1,E)</p>
+
+                <p>Required HSC GPA: 4.00 (A,D Unit), 3.5 (B Unit,C Unit,C1,E)</p>
+
+                <p>Fees: A,B,C,D(800Tk), E(700Tk), C1(600Tk)</p>
+
+                <p>Units: A, B, C, D, E, C1</p>
+
+                <p>Exam Format: MCQ</p>
+
+                <p>Exam Marks: 80</p>
+
+                <p>Total Seats: 1814</p>
+
+                <p>District: Dhaka</p>
+
+                <p>Subjects: A Unit (Bangla, English, Math, Physics, Chemistry, ICT),
+                B Unit (Bangla, English, Math, General Knowledge Others 5 marks),
+                C Unit (Bangla, English)</p>
+
+                <p>Departments: A Unit (Mathematical & Physical Sciences)-426,
+                B Unit (Social Sciences)-326, C Unit (Arts & Humanities)</p>
+
+            </div>
+
+
+            <div class="eligibility">
+
+                <h4>Eligibility</h4>
+
+                <label>SSC GPA:</label>
+                <input type="number" id="ssc" step="0.01" min="0" max="5">
+                <br><br>
+
+                <label>HSC GPA:</label>
+                <input type="number" id="hsc" step="0.01" min="0" max="5">
+                <br><br>
+
+                <label>Group:</label>
+
+                <select id="group">
+                    <option value="">Select Unit</option>
+                    <option value="A">A Unit</option>
+                    <option value="B">B Unit</option>
+                    <option value="C">C Unit</option>
+                    <option value="C1">C1 Unit</option>
+                    <option value="D">D Unit</option>
+                    <option value="E">E Unit</option>
+                </select>
+
+                <p id="result">Result:</p>
+
+                <button onclick="checkEligibility()">
+                    Check Eligibility
+                </button>
+
+                <br><br>
+
+                <button onclick="apply()">Apply</button>
+
+            </div>
+
+        </div>
+
+        <button class="back" onclick="history.back()">Back</button>
+
+    </div>
+
+    <script src="ju.js"></script>
+
+</body>
+</html>
