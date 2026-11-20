@@ -5,7 +5,6 @@ function checkEligibility() {
     let group = document.getElementById("group").value;
 
     let result = document.getElementById("result");
-
     if (ssc == "" || hsc == "" || group == "") {
 
         result.innerHTML = "Result: Please fill all fields";
